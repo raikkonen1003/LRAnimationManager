@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9C-dT-Y07">
+                                <color key="backgroundColor" red="0.72941176470000002" green="0.47058823529999999" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="图片动画"/>
+                                <connections>
+                                    <action selector="imageAnimationAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbc-bC-YiS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypy-MX-R6m">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="文本动画"/>
+                                <connections>
+                                    <action selector="textAnimationAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rtx-RN-6Jg"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="efG-di-jJB">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="86B-lF-arO"/>
+                                    <constraint firstAttribute="height" constant="128" id="97A-ja-C2t"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plane" translatesAutoresizingMaskIntoConstraints="NO" id="QkZ-Pt-WNx">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="XWs-M2-g41"/>
+                                    <constraint firstAttribute="width" constant="150" id="mdL-YT-IqJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23529411759999999" green="0.51764705879999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QkZ-Pt-WNx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JIF-00-3UE"/>
+                            <constraint firstItem="ypy-MX-R6m" firstAttribute="width" secondItem="t9C-dT-Y07" secondAttribute="width" id="MWM-6X-9Cm"/>
+                            <constraint firstItem="t9C-dT-Y07" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="30/375" id="No8-oY-v0z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="t9C-dT-Y07" secondAttribute="bottom" constant="94" id="TXU-8X-dqv"/>
+                            <constraint firstAttribute="trailing" secondItem="ypy-MX-R6m" secondAttribute="trailing" constant="61" id="UZ1-cR-4Tk"/>
+                            <constraint firstItem="t9C-dT-Y07" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="61" id="YI1-wX-rSG"/>
+                            <constraint firstItem="ypy-MX-R6m" firstAttribute="centerY" secondItem="t9C-dT-Y07" secondAttribute="centerY" id="qkf-5T-WXf"/>
+                            <constraint firstItem="efG-di-jJB" firstAttribute="top" secondItem="QkZ-Pt-WNx" secondAttribute="bottom" constant="68" id="tcP-7E-Qs9"/>
+                            <constraint firstItem="ypy-MX-R6m" firstAttribute="height" secondItem="t9C-dT-Y07" secondAttribute="height" id="tvl-qc-8H2"/>
+                            <constraint firstItem="t9C-dT-Y07" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="66/375" id="y3i-Zp-ekG"/>
+                            <constraint firstItem="QkZ-Pt-WNx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="zb7-yI-t8u"/>
+                            <constraint firstItem="efG-di-jJB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zqj-zZ-0Mx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="testImageView" destination="QkZ-Pt-WNx" id="PYU-lq-ScY"/>
+                        <outlet property="testTextView" destination="efG-di-jJB" id="ZXB-jd-3UY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="plane" width="200" height="133"/>
+    </resources>
+</document>

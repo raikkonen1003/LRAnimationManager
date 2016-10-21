@@ -1,0 +1,45 @@
+//
+//  AnimationItemTapView.h
+//  LLayerTest
+//
+//  Created by 李连斯 on 16/3/18.
+//  Copyright © 2016年 李连斯. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@class AnimationItemTapView;
+@protocol AnimationItemTapViewDelegate <NSObject>
+
+/**
+ *  选中某个动画的时候的回调
+ *
+ *  @param animationItemTapView 点击的view
+ *  @param index                index
+ */
+- (void)didSelectAnimationItemTapView:(AnimationItemTapView *)animationItemTapView atIndex:(NSInteger)index;
+/**
+ *  已经是选中状态的时候 再次点击弹出动画时间设置
+ *
+ *  @param animationItemTapView 点击的view
+ *  @param index                index
+ */
+- (void)didSelectAnimationItemTapView:(AnimationItemTapView *)animationItemTapView forAnimationSettingsAtIndex:(NSInteger)index;
+
+@end
+
+@interface AnimationItemTapView : UIView
+
+@property (nonatomic, weak) id<AnimationItemTapViewDelegate> delegate;
+/**
+ 数据源
+ */
+@property (nonatomic, strong)NSArray *dataArray;
+/**
+ 图片
+ */
+@property (nonatomic, strong)NSArray *imageArray;
+
+- (instancetype)initWithFrame:(CGRect)frame withDataArray:(NSArray *)dataArray withImageArray:(NSArray *)imageArray;
+
+@end

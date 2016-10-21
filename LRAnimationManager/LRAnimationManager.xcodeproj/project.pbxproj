@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0500421DB762B0005DF4E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0500411DB762B0005DF4E7 /* main.m */; };
+		FC0500451DB762B0005DF4E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0500441DB762B0005DF4E7 /* AppDelegate.m */; };
+		FC0500481DB762B0005DF4E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0500471DB762B0005DF4E7 /* ViewController.m */; };
+		FC05004B1DB762B0005DF4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0500491DB762B0005DF4E7 /* Main.storyboard */; };
+		FC05004D1DB762B0005DF4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC05004C1DB762B0005DF4E7 /* Assets.xcassets */; };
+		FC0500501DB762B0005DF4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC05004E1DB762B0005DF4E7 /* LaunchScreen.storyboard */; };
+		FC05005B1DB762B1005DF4E7 /* LRAnimationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC05005A1DB762B1005DF4E7 /* LRAnimationManagerTests.m */; };
+		FC0500661DB762B1005DF4E7 /* LRAnimationManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0500651DB762B1005DF4E7 /* LRAnimationManagerUITests.m */; };
+		FC4EEB5B1DB898C300AE6303 /* LRAnimationImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4EEB521DB898C300AE6303 /* LRAnimationImages.bundle */; };
+		FC4EEB5C1DB898C300AE6303 /* LRAnimationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EEB541DB898C300AE6303 /* LRAnimationItem.m */; };
+		FC4EEB5D1DB898C300AE6303 /* LRAnimationItemTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EEB561DB898C300AE6303 /* LRAnimationItemTapView.m */; };
+		FC4EEB5E1DB898C300AE6303 /* LRAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EEB581DB898C300AE6303 /* LRAnimationManager.m */; };
+		FC4EEB5F1DB898C300AE6303 /* LRAnimationOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EEB5A1DB898C300AE6303 /* LRAnimationOptionViewController.m */; };
+		FC4EEB621DB8BCC600AE6303 /* BackView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EEB611DB8BCC600AE6303 /* BackView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC0500571DB762B1005DF4E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0500351DB762AF005DF4E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC05003C1DB762AF005DF4E7;
+			remoteInfo = LRAnimationManager;
+		};
+		FC0500621DB762B1005DF4E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0500351DB762AF005DF4E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC05003C1DB762AF005DF4E7;
+			remoteInfo = LRAnimationManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC05003D1DB762AF005DF4E7 /* LRAnimationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRAnimationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0500411DB762B0005DF4E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC0500431DB762B0005DF4E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC0500441DB762B0005DF4E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC0500461DB762B0005DF4E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC0500471DB762B0005DF4E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC05004A1DB762B0005DF4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC05004C1DB762B0005DF4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC05004F1DB762B0005DF4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC0500511DB762B0005DF4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0500561DB762B1005DF4E7 /* LRAnimationManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRAnimationManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC05005A1DB762B1005DF4E7 /* LRAnimationManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRAnimationManagerTests.m; sourceTree = "<group>"; };
+		FC05005C1DB762B1005DF4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0500611DB762B1005DF4E7 /* LRAnimationManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRAnimationManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0500651DB762B1005DF4E7 /* LRAnimationManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRAnimationManagerUITests.m; sourceTree = "<group>"; };
+		FC0500671DB762B1005DF4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4EEB521DB898C300AE6303 /* LRAnimationImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LRAnimationImages.bundle; sourceTree = "<group>"; };
+		FC4EEB531DB898C300AE6303 /* LRAnimationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAnimationItem.h; sourceTree = "<group>"; };
+		FC4EEB541DB898C300AE6303 /* LRAnimationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAnimationItem.m; sourceTree = "<group>"; };
+		FC4EEB551DB898C300AE6303 /* LRAnimationItemTapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAnimationItemTapView.h; sourceTree = "<group>"; };
+		FC4EEB561DB898C300AE6303 /* LRAnimationItemTapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAnimationItemTapView.m; sourceTree = "<group>"; };
+		FC4EEB571DB898C300AE6303 /* LRAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAnimationManager.h; sourceTree = "<group>"; };
+		FC4EEB581DB898C300AE6303 /* LRAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAnimationManager.m; sourceTree = "<group>"; };
+		FC4EEB591DB898C300AE6303 /* LRAnimationOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAnimationOptionViewController.h; sourceTree = "<group>"; };
+		FC4EEB5A1DB898C300AE6303 /* LRAnimationOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAnimationOptionViewController.m; sourceTree = "<group>"; };
+		FC4EEB601DB8BCC600AE6303 /* BackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackView.h; sourceTree = "<group>"; };
+		FC4EEB611DB8BCC600AE6303 /* BackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC05003A1DB762AF005DF4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0500531DB762B1005DF4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC05005E1DB762B1005DF4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0500341DB762AF005DF4E7 = {
+			isa = PBXGroup;
+			children = (
+				FC05003F1DB762AF005DF4E7 /* LRAnimationManager */,
+				FC0500591DB762B1005DF4E7 /* LRAnimationManagerTests */,
+				FC0500641DB762B1005DF4E7 /* LRAnimationManagerUITests */,
+				FC05003E1DB762AF005DF4E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC05003E1DB762AF005DF4E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC05003D1DB762AF005DF4E7 /* LRAnimationManager.app */,
+				FC0500561DB762B1005DF4E7 /* LRAnimationManagerTests.xctest */,
+				FC0500611DB762B1005DF4E7 /* LRAnimationManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC05003F1DB762AF005DF4E7 /* LRAnimationManager */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EEB501DB898C300AE6303 /* LRAnimation */,
+				FC0500431DB762B0005DF4E7 /* AppDelegate.h */,
+				FC0500441DB762B0005DF4E7 /* AppDelegate.m */,
+				FC0500461DB762B0005DF4E7 /* ViewController.h */,
+				FC0500471DB762B0005DF4E7 /* ViewController.m */,
+				FC4EEB601DB8BCC600AE6303 /* BackView.h */,
+				FC4EEB611DB8BCC600AE6303 /* BackView.m */,
+				FC0500491DB762B0005DF4E7 /* Main.storyboard */,
+				FC05004C1DB762B0005DF4E7 /* Assets.xcassets */,
+				FC05004E1DB762B0005DF4E7 /* LaunchScreen.storyboard */,
+				FC0500511DB762B0005DF4E7 /* Info.plist */,
+				FC0500401DB762B0005DF4E7 /* Supporting Files */,
+			);
+			path = LRAnimationManager;
+			sourceTree = "<group>";
+		};
+		FC0500401DB762B0005DF4E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC0500411DB762B0005DF4E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC0500591DB762B1005DF4E7 /* LRAnimationManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC05005A1DB762B1005DF4E7 /* LRAnimationManagerTests.m */,
+				FC05005C1DB762B1005DF4E7 /* Info.plist */,
+			);
+			path = LRAnimationManagerTests;
+			sourceTree = "<group>";
+		};
+		FC0500641DB762B1005DF4E7 /* LRAnimationManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0500651DB762B1005DF4E7 /* LRAnimationManagerUITests.m */,
+				FC0500671DB762B1005DF4E7 /* Info.plist */,
+			);
+			path = LRAnimationManagerUITests;
+			sourceTree = "<group>";
+		};
+		FC4EEB501DB898C300AE6303 /* LRAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EEB511DB898C300AE6303 /* LRAnimationItem */,
+				FC4EEB571DB898C300AE6303 /* LRAnimationManager.h */,
+				FC4EEB581DB898C300AE6303 /* LRAnimationManager.m */,
+				FC4EEB591DB898C300AE6303 /* LRAnimationOptionViewController.h */,
+				FC4EEB5A1DB898C300AE6303 /* LRAnimationOptionViewController.m */,
+			);
+			path = LRAnimation;
+			sourceTree = "<group>";
+		};
+		FC4EEB511DB898C300AE6303 /* LRAnimationItem */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EEB521DB898C300AE6303 /* LRAnimationImages.bundle */,
+				FC4EEB531DB898C300AE6303 /* LRAnimationItem.h */,
+				FC4EEB541DB898C300AE6303 /* LRAnimationItem.m */,
+				FC4EEB551DB898C300AE6303 /* LRAnimationItemTapView.h */,
+				FC4EEB561DB898C300AE6303 /* LRAnimationItemTapView.m */,
+			);
+			path = LRAnimationItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC05003C1DB762AF005DF4E7 /* LRAnimationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC05006A1DB762B1005DF4E7 /* Build configuration list for PBXNativeTarget "LRAnimationManager" */;
+			buildPhases = (
+				FC0500391DB762AF005DF4E7 /* Sources */,
+				FC05003A1DB762AF005DF4E7 /* Frameworks */,
+				FC05003B1DB762AF005DF4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRAnimationManager;
+			productName = LRAnimationManager;
+			productReference = FC05003D1DB762AF005DF4E7 /* LRAnimationManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC0500551DB762B1005DF4E7 /* LRAnimationManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC05006D1DB762B1005DF4E7 /* Build configuration list for PBXNativeTarget "LRAnimationManagerTests" */;
+			buildPhases = (
+				FC0500521DB762B1005DF4E7 /* Sources */,
+				FC0500531DB762B1005DF4E7 /* Frameworks */,
+				FC0500541DB762B1005DF4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0500581DB762B1005DF4E7 /* PBXTargetDependency */,
+			);
+			name = LRAnimationManagerTests;
+			productName = LRAnimationManagerTests;
+			productReference = FC0500561DB762B1005DF4E7 /* LRAnimationManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC0500601DB762B1005DF4E7 /* LRAnimationManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0500701DB762B1005DF4E7 /* Build configuration list for PBXNativeTarget "LRAnimationManagerUITests" */;
+			buildPhases = (
+				FC05005D1DB762B1005DF4E7 /* Sources */,
+				FC05005E1DB762B1005DF4E7 /* Frameworks */,
+				FC05005F1DB762B1005DF4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0500631DB762B1005DF4E7 /* PBXTargetDependency */,
+			);
+			name = LRAnimationManagerUITests;
+			productName = LRAnimationManagerUITests;
+			productReference = FC0500611DB762B1005DF4E7 /* LRAnimationManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0500351DB762AF005DF4E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LR;
+				TargetAttributes = {
+					FC05003C1DB762AF005DF4E7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FC0500551DB762B1005DF4E7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC05003C1DB762AF005DF4E7;
+					};
+					FC0500601DB762B1005DF4E7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC05003C1DB762AF005DF4E7;
+					};
+				};
+			};
+			buildConfigurationList = FC0500381DB762AF005DF4E7 /* Build configuration list for PBXProject "LRAnimationManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC0500341DB762AF005DF4E7;
+			productRefGroup = FC05003E1DB762AF005DF4E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC05003C1DB762AF005DF4E7 /* LRAnimationManager */,
+				FC0500551DB762B1005DF4E7 /* LRAnimationManagerTests */,
+				FC0500601DB762B1005DF4E7 /* LRAnimationManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC05003B1DB762AF005DF4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4EEB5B1DB898C300AE6303 /* LRAnimationImages.bundle in Resources */,
+				FC0500501DB762B0005DF4E7 /* LaunchScreen.storyboard in Resources */,
+				FC05004D1DB762B0005DF4E7 /* Assets.xcassets in Resources */,
+				FC05004B1DB762B0005DF4E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0500541DB762B1005DF4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC05005F1DB762B1005DF4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0500391DB762AF005DF4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0500481DB762B0005DF4E7 /* ViewController.m in Sources */,
+				FC4EEB621DB8BCC600AE6303 /* BackView.m in Sources */,
+				FC4EEB5C1DB898C300AE6303 /* LRAnimationItem.m in Sources */,
+				FC4EEB5D1DB898C300AE6303 /* LRAnimationItemTapView.m in Sources */,
+				FC4EEB5F1DB898C300AE6303 /* LRAnimationOptionViewController.m in Sources */,
+				FC0500451DB762B0005DF4E7 /* AppDelegate.m in Sources */,
+				FC4EEB5E1DB898C300AE6303 /* LRAnimationManager.m in Sources */,
+				FC0500421DB762B0005DF4E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0500521DB762B1005DF4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC05005B1DB762B1005DF4E7 /* LRAnimationManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC05005D1DB762B1005DF4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0500661DB762B1005DF4E7 /* LRAnimationManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC0500581DB762B1005DF4E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC05003C1DB762AF005DF4E7 /* LRAnimationManager */;
+			targetProxy = FC0500571DB762B1005DF4E7 /* PBXContainerItemProxy */;
+		};
+		FC0500631DB762B1005DF4E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC05003C1DB762AF005DF4E7 /* LRAnimationManager */;
+			targetProxy = FC0500621DB762B1005DF4E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC0500491DB762B0005DF4E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC05004A1DB762B0005DF4E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC05004E1DB762B0005DF4E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC05004F1DB762B0005DF4E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC0500681DB762B1005DF4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC0500691DB762B1005DF4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC05006B1DB762B1005DF4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LRAnimationManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lieren.LRAnimationManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC05006C1DB762B1005DF4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LRAnimationManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lieren.LRAnimationManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC05006E1DB762B1005DF4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LRAnimationManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lieren.LRAnimationManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRAnimationManager.app/LRAnimationManager";
+			};
+			name = Debug;
+		};
+		FC05006F1DB762B1005DF4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LRAnimationManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lieren.LRAnimationManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRAnimationManager.app/LRAnimationManager";
+			};
+			name = Release;
+		};
+		FC0500711DB762B1005DF4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LRAnimationManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lieren.LRAnimationManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LRAnimationManager;
+			};
+			name = Debug;
+		};
+		FC0500721DB762B1005DF4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LRAnimationManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lieren.LRAnimationManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LRAnimationManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0500381DB762AF005DF4E7 /* Build configuration list for PBXProject "LRAnimationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0500681DB762B1005DF4E7 /* Debug */,
+				FC0500691DB762B1005DF4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC05006A1DB762B1005DF4E7 /* Build configuration list for PBXNativeTarget "LRAnimationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC05006B1DB762B1005DF4E7 /* Debug */,
+				FC05006C1DB762B1005DF4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC05006D1DB762B1005DF4E7 /* Build configuration list for PBXNativeTarget "LRAnimationManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC05006E1DB762B1005DF4E7 /* Debug */,
+				FC05006F1DB762B1005DF4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0500701DB762B1005DF4E7 /* Build configuration list for PBXNativeTarget "LRAnimationManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0500711DB762B1005DF4E7 /* Debug */,
+				FC0500721DB762B1005DF4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC0500351DB762AF005DF4E7 /* Project object */;
+}
